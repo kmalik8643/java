@@ -1,4 +1,5 @@
 public class testing {
     int a;
-    int b;
+    String b="k";// changing from char to string
+
 }
