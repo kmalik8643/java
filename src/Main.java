@@ -5,10 +5,11 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Animal lion = new Animal("Leo", 5, "Lion");
-        lion.eat();
-        lion.sleep();
-        lion.makeSound();
+
+        MyClass obj1 = new MyClass();
+        MyClass obj2 = new MyClass();
+        System.out.println(MyClass.count); // Output: 2
+
 
         System.out.println("Enter the operator");
         Scanner myobj=new Scanner(System.in);
